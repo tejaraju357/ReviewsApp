@@ -24,7 +24,8 @@ const ReviewsCarousel = props => {
           type="button"
           className="arrow-button"
           onClick={leftArrow}
-          disabled={currentIndex === 0} // Disable button if at the first review
+          data-testid="leftArrow"
+          disabled={currentIndex === 0}
         >
           <img
             src="https://assets.ccbp.in/frontend/react-js/left-arrow-img.png"
@@ -36,7 +37,8 @@ const ReviewsCarousel = props => {
       <div className="review-card">
         <h1 className="mainHeading">Reviews</h1>
         <img src={imgUrl} alt={username} className="reviewer-image" />
-        <h1 className="reviewer-name">{username}</h1>
+        <p className="reviewer-name">{username}</p>{' '}
+        {/* Changed from <h1> to <p> */}
         <p className="company-name">{companyName}</p>
         <p className="review-description">{description}</p>
       </div>
@@ -45,7 +47,8 @@ const ReviewsCarousel = props => {
           type="button"
           className="arrow-button"
           onClick={rightArrow}
-          disabled={currentIndex === reviewsList.length - 1} // Disable button if at the last review
+          data-testid="rightArrow"
+          disabled={currentIndex === reviewsList.length - 1}
         >
           <img
             src="https://assets.ccbp.in/frontend/react-js/right-arrow-img.png"
@@ -57,4 +60,5 @@ const ReviewsCarousel = props => {
     </div>
   )
 }
+
 export default ReviewsCarousel

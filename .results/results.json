@@ -1,0 +1,100 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML heading element with text content as \"Reviews\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML button element with testid attribute value as \"leftArrow\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML button element with testid attribute value as \"rightArrow\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML image element with alt as \"left arrow\" and src attribute value as URL for left arrow image",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of HTML image element with alt as \"right arrow\" and src attribute value as URL for right arrow image",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially display the first review, and consist of HTML image element with alt value equal to the \"username\" value in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially display the first review, and consist of HTML image element with alt value equal to the \"username\" and src attribute value equal to the \"imgUrl\" value in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially display the first review, and consist of HTML paragraph element with text content equal to the \"username\" value in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially display the first review, and consist of HTML paragraph element with text content equal to the \"companyName\" value in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_10",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially display the first review, and consist of HTML paragraph element with text content equal to the \"description\" value in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_11",
+      "evaluation_result": "CORRECT",
+      "title": "When the right arrow is clicked, the page should consist of an HTML image element with alt value equal to the \"username\" and src attribute value equal to the \"imgUrl\" value of the next review in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_12",
+      "evaluation_result": "CORRECT",
+      "title": "When the right arrow is clicked, the page should consist of HTML paragraph elements with \"username\", \"companyName\", and \"description\" of the next review in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_13",
+      "evaluation_result": "CORRECT",
+      "title": "When the left arrow is clicked, the page should consist of an HTML image element with alt attribute value equal to the \"imgUrl\" value of the previous review in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_14",
+      "evaluation_result": "CORRECT",
+      "title": "When the left arrow is clicked, the page should consist of HTML paragraph elements with \"username\", \"companyName\", and \"description\" of the previous review in reviewsList provided",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_15",
+      "evaluation_result": "CORRECT",
+      "title": "When viewing the first review, there should not be any state change when the HTML button element with testid attribute value as \"leftArrow\" is clicked",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPHOIAU_TEST_16",
+      "evaluation_result": "CORRECT",
+      "title": "When viewing the last review, there should not be any state change when the HTML button element with testid attribute value as \"rightArrow\" is clicked",
+      "errorMessages": []
+    }
+  ]
+}
